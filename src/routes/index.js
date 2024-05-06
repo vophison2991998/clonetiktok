@@ -9,8 +9,7 @@ import OnlyLyaout from '../components/layout/OnlyLayout'
 
 
 const publiRouter = [
-    { path:'/', component: Home},
-
+    { path:'/', component: Home ,},
     { path:'/following', component: Following },
     { path:'/profile', component: Profile },
     { path:'/Upload', component:Upload , layout:OnlyLyaout },
