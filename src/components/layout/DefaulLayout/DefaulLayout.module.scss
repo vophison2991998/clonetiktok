@@ -6,7 +6,12 @@
 }
 
 .container{
-    width: 1150px;
-    min-height: 100px;
-    background-color: red;
+    width: var(--default-layout-width);
+   display: flex;
+
+
+}
+
+.content{
+    flex: 1;
 }
